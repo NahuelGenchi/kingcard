@@ -1,3 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+:root {
+  font-size: 16px;
+}
+
+.h1, body .container header span {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: black;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edede9;
+}
+body .container {
+  height: 70vh;
+  width: 30vw;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+body .container header {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6ccc2;
+  border-bottom: 1px solid gray;
+}
+body .container main {
+  height: 75%;
+}
+body .container footer {
+  height: 5%;
+  border-top: 1px solid gray;
+}
 
 /*# sourceMappingURL=main.css.map */
