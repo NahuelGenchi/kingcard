@@ -13,4 +13,5 @@ ageBtn.addEventListener("click", function(){
     } else {
         elegibleText.textContent = `Your age is ${age}. You are not elegible, you have already gotten one`;
     };
+    ageInput.value = "";
 });
