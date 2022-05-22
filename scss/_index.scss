@@ -10,7 +10,7 @@ body {
     background-color: c.$backgroundWhite;
     .container {
         height: 70vh;
-        width: 30vw;
+        width: 35vw;
         border: 1px solid gray;
         border-radius: 5px;
         header {
@@ -52,6 +52,10 @@ body {
                     cursor: pointer;
                     font-size: 2rem;
                 }
+            }
+            #elegible, #ageText {
+                width: 75%;
+                text-align: center;
             }
         }
         footer {
